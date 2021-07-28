@@ -10,26 +10,3 @@ terraform {
     }
   }
 }
-
-# ---------------------------------------------
-# Variables
-# ---------------------------------------------
-variable "project" {
-  type = string
-}
-
-variable "environment" {
-  type = string
-}
-
-variable "aza" {
-  type = string
-}
-
-variable "azb" {
-  type = string
-}
-
-variable "azc" {
-  type = string
-}
