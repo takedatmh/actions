@@ -16,4 +16,5 @@ resource aws_organizations_account account1 {
    email = "tketomo+terraform12@amazon.co.jp"
    #parent_id = aws_organizations_organizational_unit.ou1.id
    
+   
 }
