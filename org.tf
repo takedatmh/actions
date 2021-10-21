@@ -12,7 +12,7 @@
 # }
 
 resource aws_organizations_account account1 {
-   name  = "account2"
+   name  = "account3"
    email = "tketomo+sompoac1@amazon.co.jp"
    #parent_id = aws_organizations_organizational_unit.ou1.id
    
