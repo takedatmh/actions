@@ -7,7 +7,7 @@
 # }
 
 resource aws_organizations_organizational_unit ou1{
-  name = "ou1"
+  name = "ou2"
   parent_id = aws_organizations_organization.org.roots[0].id
 }
 
